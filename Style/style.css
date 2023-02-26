@@ -1,0 +1,1040 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+h2 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+/* ==========header CSS start============= */
+/* .header-box {
+    background-image: radial-gradient(#f0f5fa, #c5cbf4, #ecd7e3);
+} */
+
+.header {
+    min-height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    background-color: #cfceef;
+
+}
+
+nav {
+    display: flex;
+    padding: 0 13%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+nav img {
+    width: 230px;
+}
+
+.nav_links {
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown_container {
+    display: flex;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    background: none;
+
+}
+
+/* .dropdown_btn{
+    color: grey;
+} */
+.selecticon {
+    background: none;
+    position: relative;
+    border: none;
+}
+
+.dropdown-content {
+    padding: 20px 0;
+    display: none;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    /* color: grey; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#port {
+    color: #545265;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.quote_btn {
+    padding: 0.6rem;
+    width: 9rem;
+    background-color: blue;
+    border: none;
+
+}
+
+.quote_btn a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.nav_links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+.nav_links ul li:hover::after {
+    width: 100%;
+    /* transition: 0.5s; */
+}
+
+/* =============== Header CSS End =============================== */
+/* navbar Start in css */
+
+
+.navbar {
+    background-image: radial-gradient(#f0f5fa, #c5cbf4, #ecd7e3);
+    min-height: 100vh;
+
+}
+
+.nav_page {
+    width: 85%;
+    /* padding-left: 210px; */
+    display: flex;
+    margin-left: 14rem;
+    min-height: 100vh;
+}
+
+.nav_content {
+    width: 45%;
+    padding-top: 100px;
+
+    /* border: 1px solid red; */
+}
+
+.bet-fas-eff {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+
+.nav_content>p+h1 {
+    padding-top: 5px;
+    font-size: 70px;
+}
+
+#grow_id {
+    font-size: 1.8rem;
+    margin-top: 0.3rem;
+}
+
+#nav_para {
+    padding-top: 0.6rem;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+
+    color: grey;
+}
+
+#mobile_span {
+    color: black;
+    font-weight: bold;
+}
+
+.nav_img {
+    width: 55%;
+
+    /* border: 1px solid blue; */
+}
+
+.nav_img img {
+    width: 100%;
+}
+
+#get-started-btn {
+    margin-top: 1.6rem;
+    padding: 0.8rem;
+}
+
+
+#container {
+    padding: 5rem 13rem;
+}
+
+/* course css start */
+#course_box {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course {
+    width: 32%;
+    background-color: rgb(245, 246, 254);
+}
+
+.digit {
+
+    margin: 2rem 0 0.5rem 1.8rem;
+    padding-top: 0.3rem;
+    padding-left: 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+}
+
+.digit+h2 {
+
+    margin-left: 1.5rem;
+}
+
+.digit+h2+img {
+    width: 90%;
+    margin: 1.5rem;
+}
+
+.course_para {
+    margin: 0.5rem 0 0 1.4rem;
+    font-size: 1.rem;
+}
+
+/* course css end */
+
+/* aboutLogic css start */
+.aboutLogic {
+    margin-top: 5rem;
+    min-height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#logic_img {
+    width: 50%;
+
+    /* border: 1px solid red; */
+}
+
+#logic_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.allContend {
+    width: 50%;
+    margin-left: 1.8rem;
+    /* border: 1px solid blue; */
+}
+
+.allContend h1 {
+    font-size: 2.5rem;
+
+}
+
+.gif_img {
+    width: 20%;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+#mission_list {
+    list-style: none;
+}
+
+#mission_list>li {
+    display: inline-block;
+    margin-right: 2.3rem;
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    color: grey;
+
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+
+#mission_list>li:nth-child(1) {
+    border-bottom: 2px solid blue;
+}
+
+/* #logic_about>h1+img+p+p+ul+p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: grey;
+    line-height: 1.5rem;
+} */
+#discover_btn {
+    margin-top: 2rem;
+    width: 30%;
+    height: 2.7rem;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    background-color: blue;
+}
+
+/* .aboutLogic css end ================ */
+/* client CSS start */
+.client_box {
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+}
+
+.client {
+    text-align: center;
+}
+
+#client_img>img {
+    display: inline-block;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+/* client CSS end */
+/* BPO CSS Start */
+.bpo_box {
+    margin-top: 5rem;
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.about_bpo {
+    width: 68%;
+    /* border: 1px solid blue; */
+}
+
+.about_bpo h1 {
+    font-size: 2.9rem;
+
+}
+
+.about_bpo>h1+img+p+p+h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.bpo_list {
+    margin-top: 0.5rem;
+    padding: 0.1rem 0 0 1.2rem;
+    font-size: 0.9rem;
+    color: grey;
+
+}
+
+.bpo_img {
+    width: 33%;
+    /* border: 1px solid black; */
+}
+
+/* BPO CSS End */
+.our_product h1 {
+    margin-top: 5rem;
+    font-size: 42px;
+    text-align: center;
+}
+
+#gif {
+    margin-left: 24rem;
+    width: 30%;
+    height: 60px;
+}
+
+.product_box {
+    width: 100%;
+    min-height: 85vh;
+    margin-top: 5rem;
+    display: flex;
+    /* border: 1px solid red; */
+    /* border: 1px solid black; */
+
+}
+
+/* .product_insideBox {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    border: 1px solid red;
+} */
+.product_img {
+    width: 50%;
+    /* border: 1px solid black; */
+
+
+}
+
+.product_img img {
+    width: 100%;
+}
+
+.product_details {
+    margin-left: 1rem;
+    width: 50%;
+
+}
+
+.product_media {
+    margin-top: 1rem;
+    width: 100%;
+    /* height: 12vh; */
+
+    display: flex;
+}
+
+.media_icon {
+    width: 20%;
+
+    /* height: 12vh; */
+    ;
+}
+
+
+
+.media_icon-about {
+    width: 85%;
+
+}
+
+.media_icon-about2 {
+    width: 50%;
+    height: 10vh;
+    /* border: 1px solid red;*/
+}
+
+.fa-media {
+    background-color: blue;
+    margin: 0.4rem 0 0 0.5rem;
+    height: 60px;
+    width: 80;
+    padding: 12px;
+    border-radius: 50%;
+    color: #fff;
+    ;
+}
+
+.fantacy_box {
+    width: 100%;
+    margin-top: 5rem;
+    min-height: 50vh;
+    display: flex;
+
+}
+
+.fantacy_about {
+    width: 50%;
+
+
+}
+
+.fantacy_img {
+    width: 50%;
+
+}
+
+.fantacy_img img {
+    width: 100%;
+}
+
+/* Projects CSS strt  */
+#projects {
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.secondContainer {
+    width: 72%;
+    min-height: 70vh;
+    margin: auto;
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.allImages {
+    width: 50%;
+    /* border: 1px solid green; */
+}
+
+.allImages img {
+    width: 100%;
+}
+
+#firstPara,
+#secondPara {
+    padding-top: 1rem;
+}
+
+.contendDiv {
+    margin-top: 5rem;
+}
+
+.contend2 {
+    margin-left: -2rem;
+}
+
+.downloadBtn {
+    width: 100%;
+
+    display: flex;
+    margin-top: 2rem;
+    gap: 10px;
+
+}
+
+.androidDown1 {
+    width: 45%;
+    height: 15vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    padding: 1rem 0 0 1rem;
+}
+
+.androidDown1>h3 {
+    padding-top: 0.5rem;
+}
+
+.androidDown>img {
+    width: 100%;
+}
+
+.appleDown1 {
+    width: 45%;
+    padding: 1rem 0 0 1rem;
+    height: 15vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.appleDown1>h3 {
+    padding-top: 0.5rem;
+}
+
+.fa-chat1 {
+    padding: 0.8rem;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+
+.fa-chat2 {
+    padding: 0.8rem;
+    background-color: yellow;
+    color: white;
+    border-radius: 8px;
+}
+
+.androidDown {
+    width: 30%;
+}
+
+.appleDown {
+    width: 30%;
+}
+
+.appleDown>img {
+    width: 100%;
+}
+
+.thirdContainer {
+    width: 100%;
+    margin-top: 5rem;
+    background: rgb(246, 246, 254);
+    /* border: 1px solid red; */
+
+}
+
+.insideThirdContainer {
+    width: 72%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+}
+
+.darshanClass {
+    margin-left: 0px;
+}
+
+#bigBtn {
+    margin-top: 5rem;
+
+}
+
+#bigBtn a p {
+    width: 15%;
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
+    /* border: 1px solid green; */
+}
+
+/* ==========   background img start  =================================== */
+.backgorund_img {
+    margin-top: 3rem;
+    width: 100%;
+    height: 40vh;
+    background-image: url('../Assets/backgro_img.png');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    /* opacity: 100; */
+
+}
+
+
+
+.backgorund_img::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    position: absolute;
+    opacity: 0.7;
+    color: #fff;
+    text-align: center;
+    /* padding-top: 1rem; */
+    text-align: center;
+
+}
+
+/* ==========   background img end =================================== */
+
+
+/* footer css start============================ */
+.footer {
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+    min-height: 75vh;
+
+}
+
+.footerBox {
+    margin: auto;
+    width: 72%;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 70vh);
+    gap: 20px;
+
+}
+
+.footerBox h3 {
+    margin-top: 5rem;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footerBox h3+p {
+    margin-top: 16px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+.fa-brands {
+    /* display: flex; */
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding: 12px;
+    background-color: blue;
+    /* width: 50%;
+    width: 50%; */
+    border-radius: 50%;
+    color: white;
+
+}
+
+.fa-brands:hover {
+    background-color: #1fc3f0;
+}
+
+/* .footerBox ul{
+    padding:20px;
+} */
+.footerBox ul li {
+    list-style: none;
+    margin-top: 16px;
+    /* padding: 15px; */
+    font-weight: bold;
+}
+
+.footer-box h3+h2 {
+    padding-top: 10px;
+
+}
+
+.mbl-email-address {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: rgb(64, 50, 38);
+}
+
+#noida {
+    color: black;
+    font-weight: bold;
+}
+
+#dubai {
+    margin-left: 2.8rem;
+    color: blue;
+}
+
+.fa-solid {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(64, 50, 38);
+}
+
+/* footer end================================ */
+
+
+/* social link */
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.fa-whatsapp {
+    font-size: 2rem;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.fa-angle-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+    background-color: #086ad8;
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 100vh;
+        width: 100%;
+        display: none;
+
+    }
+
+    .nav_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        min-height: 100vh;
+        background-color: green;
+    }
+
+    .nav_content {
+        width: 100%;
+        padding-top: 0px;
+        text-align: center;
+
+    }
+
+    .nav_content>p+h1 {
+        padding-top: 5px;
+        font-size: 40px;
+    }
+
+    #nav_para {
+        padding-top: 0.6rem;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+
+        color: grey;
+    }
+
+    #mobile_span {
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav_img {
+        width: 100%;
+
+    }
+
+    .nav_img img {
+        width: 100%;
+    }
+
+    #get-started-btn {
+        margin-top: 1.6rem;
+        padding: 0.8rem;
+    }
+
+    /* course */
+
+    #container {
+        padding: 1rem;
+    }
+
+    #course_box {
+        min-height: 90vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .digit+h2+img+h2 {
+        font-size: 1.2rem;
+    }
+
+    .course_para {
+        margin: 0.5rem 0 0 1.4rem;
+    }
+
+    /* course end */
+
+    /* about logic start */
+
+    .aboutLogic {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    #logic_img {
+        width: 100%;
+    }
+
+    .allContend {
+        width: 100%;
+        margin: 0;
+    }
+
+    .allContend h1 {
+        font-size: 1.3rem;
+    }
+
+    .allContend br {
+        display: none;
+    }
+
+    .allContend p {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+        text-align: justify;
+    }
+
+    #mission_list {
+        margin-bottom: 1.2rem;
+    }
+
+    #mission_list>li {
+        margin-right: 1rem;
+        font-size: 0.9rem;
+    }
+
+    #discover_btn {
+        width: 40%;
+        font-size: 0.9rem;
+        border-radius: 0.1rem;
+    }
+
+    /* about logic end */
+
+    /* client box start */
+
+    .client_box {
+        margin-top: 3rem;
+    }
+
+    .client {
+        text-align: center;
+        font-size: 0.7rem;
+    }
+
+    #client_img>img {
+        margin-top: 1rem;
+    }
+
+    /* client box end */
+
+    /* bp start */
+
+    .bpo_box {
+        margin-top: -10rem;
+        flex-direction: column;
+    }
+
+    .about_bpo {
+        width: 100%;
+    }
+
+    .about_bpo h1 {
+        font-size: 1.1rem;
+    }
+
+    .about_bpo br {
+        display: none;
+    }
+
+    .about_bpo p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+
+    .about_bpo>h1+img+p+p+h3 {
+        font-size: 1.1rem;
+    }
+
+    .bpo_list {
+        font-size: 0.9rem;
+    }
+
+    .bpo_list li {
+        margin-bottom: 0.5rem;
+    }
+
+    .bpo_img {
+        width: 100%;
+    }
+
+    .bpo_img img {
+        width: 100%;
+    }
+
+    /* bpo end */
+
+
+
+    .our_product,
+    /* .fantacy_box, */
+    .product_box,
+    .secondContainer,
+    #projects,
+    .thirdContainer,
+    #bigBtn {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .backgorund_img {
+        display: none;
+    }
+}

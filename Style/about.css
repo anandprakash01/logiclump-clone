@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* body{
+    border: 1px solid rgb(19, 19, 19);
+} */
+
+h2 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    color: grey;
+}
+
+/* ==========header CSS start============= */
+.header {
+    min-height: 10vh;
+    width: 100%;
+    /* position: relative; */
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    padding: 0 13%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+nav img {
+    width: 230px;
+}
+
+.nav_links {
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown_container {
+    display: flex;
+}
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    background: none;
+    
+}
+/* .dropdown_btn{
+    color: grey;
+} */
+.selecticon {
+    background: none;
+    position: relative;
+    border: none;
+}
+.dropdown-content {
+    padding: 20px 0;
+    display: none;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    /* color: grey; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#port{
+    color: #545265;    
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.nav_links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+.nav_links ul li:hover::after {
+    width: 100%;
+    /* transition: 0.5s; */
+}
+/* ================header CSS End================= */
+/* ==============Navbar  start============ */
+h1{
+    font-size: 45px;
+}
+p{
+    color: grey;
+}
+.page-title{
+    background-image: url('../Assets/bg-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /* position: absolute; */
+    width:100%;
+    height: 400px;
+    
+}
+.page-title-1{
+    background-color: rgba(0, 0, 0, 0.750);
+    width:100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.page-title-1 h1{
+    margin-bottom: 0.5rem;
+}
+.page-title-text a{
+    color: white;
+    text-decoration: none;
+}
+.dot{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #004aff;
+    margin: 2px 7px;
+    border-radius: 50%;
+}
+.aboutLogic {
+    margin-top: 5rem;
+    min-height: 70vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#logic_img {
+    width: 50%;
+
+    /* border: 1px solid red; */
+}
+
+#logic_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.allContend {
+    width: 50%;
+    margin-left: 1.8rem;
+    /* border: 1px solid blue; */
+}
+
+.allContend h1 {
+    margin-top: 2.6rem;
+    font-size: 2.3rem;
+    padding: 0 5rem;
+
+}
+
+.gif_img {
+    width: 20%;
+    height: 30px;
+    font-weight: bold;
+    margin: 0 4rem;
+
+}
+.paraToAll{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    padding: 0 5rem;
+    color: grey;
+    
+
+}
+
+#mission_list {
+    list-style: none;
+    margin-left: 5rem;
+    margin-bottom: 0.8rem;
+}
+
+#mission_list>li {
+    display: inline-block;
+    margin-right: 2.3rem;
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    color: grey;
+    /* border-bottom: 2px solid blue; */
+    padding-bottom: 5px;
+    cursor: pointer;
+
+}
+#mission_list>li:nth-child(1){
+    border-bottom: 2px solid blue;
+}
+
+#discover_btn {
+    margin: 5rem  0 0 5rem;
+    width: 30%;
+    height: 2.7rem;
+    font-size: 1.2rem;
+    color: #fff;
+    border: none;
+    background-color: blue;
+    border-radius: 0.4rem;
+}
+
+.outstanding-work{
+    width: 72%;
+    min-height: 20vh;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 5rem;
+    text-align: center;
+}
+.outstanding-work h1{
+    font-size: 3.0rem;
+}
+.outstanding-work >h1+ p{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: grey;
+    line-height: 1.7rem;
+}
+.icon-box{
+    width: 72%;
+    min-height: 20vh;
+    margin: auto;
+    margin-top: 5rem;
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+.icon-box>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1rem;
+}
+.fa-icon{
+    padding: 2rem 0 0 5rem;
+}
+.icon-box  div>p{
+    margin: 2rem 0 0 1.8rem;  
+    font-size: 1.2rem;  
+}
+.icon-box>div:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+/* ===== footer CSS start======================= */
+.footer {
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+    min-height: 75vh;
+
+}
+
+.footerBox {
+    margin: auto;
+    width: 72%;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 70vh);
+    gap: 20px;
+
+}
+
+.footerBox h3 {
+    margin-top: 5rem;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footerBox h3+p {
+    margin-top: 16px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+.fa-brands {
+    /* display: flex; */
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding: 12px;
+    background-color: blue;
+    /* width: 50%;
+    width: 50%; */
+    border-radius: 50%;
+    color: white;
+
+}
+
+.fa-brands:hover {
+    background-color: #1fc3f0;
+}
+
+/* .footerBox ul{
+    padding:20px;
+} */
+.footerBox ul li {
+    list-style: none;
+    margin-top: 16px;
+    /* padding: 15px; */
+    font-weight: bold;
+}
+
+.footer-box h3+h2 {
+    padding-top: 10px;
+
+}
+
+.mbl-email-address {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: rgb(64, 50, 38);
+}
+
+#noida {
+    color: black;
+    font-weight: bold;
+}
+
+#dubai {
+    margin-left: 2.8rem;
+    color: blue;
+}
+
+.fa-solid {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(64, 50, 38);
+}
+/* footer end================================ */
+
+/* social link */
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.fa-whatsapp {
+    font-size: 2rem;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.fa-angle-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+    background-color: #086ad8;
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+}
+/* Social link end */

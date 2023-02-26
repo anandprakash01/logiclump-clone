@@ -1,0 +1,89 @@
+.footer {
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+    min-height: 75vh;
+
+}
+
+.footerBox {
+    margin: auto;
+    width: 72%;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 70vh);
+    gap: 20px;
+
+}
+
+.footerBox h3 {
+    margin-top: 5rem;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footerBox h3+p {
+    margin-top: 16px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+
+.fa-brands {
+    /* display: flex; */
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding: 12px;
+    background-color: blue;
+    /* width: 50%;
+    width: 50%; */
+    border-radius: 50%;
+    color: white;
+
+}
+
+.fa-brands:hover {
+    background-color: #1fc3f0;
+}
+
+/* .footerBox ul{
+    padding:20px;
+} */
+.footerBox ul li {
+    list-style: none;
+    margin-top: 16px;
+    /* padding: 15px; */
+    font-weight: bold;
+}
+
+.footer-box h3+h2 {
+    padding-top: 10px;
+
+}
+
+.mbl-email-address {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: rgb(64, 50, 38);
+}
+
+#noida {
+    color: black;
+    font-weight: bold;
+}
+
+#dubai {
+    margin-left: 2.8rem;
+    color: blue;
+}
+
+.fa-solid {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(64, 50, 38);
+}

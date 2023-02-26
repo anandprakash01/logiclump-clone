@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    
+    /* border: 2px solid red; */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+p {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    letter-spacing: 1px;
+    color: grey;
+}
+.header {
+    min-height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+
+}
+nav {
+    display: flex;
+    padding: 0 13%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* .navbar {
+    background-color: blue;
+} */
+
+nav img {
+    width: 230px;
+}
+.nav_links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown_container {
+    display: flex;
+}
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    background: none;
+    
+}
+#port{
+    color: grey;    
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* .dropdown_btn{
+    color: grey;
+} */
+.selecticon {
+    background: none;
+    position: relative;
+    border: none;
+}
+.dropdown-content {
+    padding: 20px 0;
+    display: none;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    /* color: grey; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+#Port_select {
+    border: none;
+    font-size: 15px;
+    color: black;
+    background-color: #fff;
+}
+/* .quote_btn {
+    padding: 0.6rem;
+    width: 9rem;
+    background-color: blue;
+    border: none;
+
+}
+.quote_btn a {
+    color: #fff;
+    font-size: 1.1rem;
+} */
+
+.nav_links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background: #f44336;
+    transition: 0.5s;
+}
+
+.nav_links ul li:hover::after {
+    width: 100%;
+    /* transition: 0.5s; */
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #212121;
+    text-transform: capitalize;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    color: #545454;
+
+}
+.main-banner{
+    height: 775px;
+    margin-bottom: 46px;
+    background-image: url('../assets/meta.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-banner h1, .main-banner h4{
+    width: 64%;
+    margin:5px auto;
+}
+.main-banner h1{
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: 1.5px;
+}
+.main-banner h4{
+    font-size: 20px;
+    color: rgb(34, 34, 34);
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+.col-1{
+    width: 680px;
+    height: 653px;
+    padding: 0px 35px
+}
+.col-2{
+    height: 653px;
+}
+
+.col-2 img{
+    width: 500px;
+    height: auto;
+    padding: 60px 0;
+}
+.col-1 h2{
+    font-size: 38px;
+}
+.col-1 p{
+    margin: 15px 0px;
+    color: #545454;
+}
+.col-1 h4{
+    color: #212121;
+    font-weight: bold;
+    font-size: 20px;
+}
+.col-1 ul{
+    margin: 10px 0px 10px 35px;
+}
+.col-1 li{
+    font-size: 15px;
+    color:#333333;
+}
+.metaverse-plateform{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.metaverse-plateform h1{
+    margin-bottom: 20px;
+}
+.metaverse-plateform p{
+    margin-bottom: 15px;
+    color: #858484;
+}
+.metaverse-plateform h4{
+    color: #6e6c6c;
+}
+.metaverse-banner-2 img{
+    width: 100%;
+    height: auto;
+    margin:90px 0;
+}
+.row-2{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 20px 10px;
+    justify-content: center;
+}
+.col{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    z-index: 1;
+    transition: 0.2s;
+    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
+    position: relative;
+}
+.col::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 0%;
+    background: #00b0ee;
+    border-radius: 0;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.col:hover {
+    box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
+}
+.col:hover::before {
+    height: 100%;
+}
+
+.col h2{
+    margin: 10px;
+    font-size: 21px;
+    padding: 10px;
+}
+.col p{
+    margin: 10px;
+    font-size: 16px;
+    padding: 10px;
+    color: #6b6b6b;
+}
+
+/* .col-2{
+    --c:#00b0ee;
+    color: red;
+    border-radius: 15px;
+    background: 
+      linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+  }
+  .col-2:hover {
+    --_p: 100%
+  } */
+.metaverse-dev{
+    height: 525px;
+    padding: 35px;
+}
+.metaverse-dev h2{
+  font-size: 30px;
+}
+.metaverse-dev+div{
+    height: 525px;
+}
+.metaverse-dev p{
+    font-size: 15px;
+}
+/* .metaverse-dev+div img{
+    width: 510px;
+} */
+.col-features{
+    width: 777px;
+}
+.col-feature-img{
+    margin: 0px 20px;
+    padding: 45px 15px;
+    width: 365px;
+    height: 775px;
+}
+.col-features-inside{
+    width: 354px;
+    height: 234px;
+    margin: 0px 6px;
+    padding: 0 5px;
+}
+h2{
+    margin: 10px 0;
+    font-size: 30px;
+}
+.why-section h1, .why-section p{
+    width: 75%;
+    height: auto;
+    margin:10px auto;
+    text-align: center;
+}
+.col-why{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    width: 525px;
+    height: 85px;
+    margin: 10px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.col-why img{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.col-why h2{
+    font-size: 1.5rem;
+    padding: 10px;
+    font-weight: 600;
+}
+/* footer section  */
+
+.footer {
+    width: 100%;
+    background-color: rgb(245, 243, 243);
+    min-height: 75vh;
+
+}
+
+.footerBox {
+    margin: auto;
+    width: 72%;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 70vh);
+    gap: 20px;
+
+}
+
+.footerBox h3 {
+    margin-top: 5rem;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footerBox h3+p {
+    margin-top: 16px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.3rem;
+}
+
+.fa-brands {
+    /* display: flex; */
+    margin-top: 2rem;
+    margin-left: 10px;
+    padding: 12px;
+    background-color: blue;
+    /* width: 50%;
+    width: 50%; */
+    border-radius: 50%;
+    color: white;
+
+}
+
+.fa-brands:hover {
+    background-color: #1fc3f0;
+}
+
+/* .footerBox ul{
+    padding:20px;
+} */
+.footerBox ul li {
+    list-style: none;
+    margin-top: 16px;
+    /* padding: 15px; */
+    font-weight: bold;
+}
+
+.footer-box h3+h2 {
+    padding-top: 10px;
+
+}
+
+.mbl-email-address {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: rgb(64, 50, 38);
+}
+
+#noida {
+    color: black;
+    font-weight: bold;
+}
+
+#dubai {
+    margin-left: 2.8rem;
+    color: blue;
+}
+
+.fa-solid {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(64, 50, 38);
+}
+
+/* footer end================================ */
+
+
+/* social link */
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.fa-whatsapp {
+    font-size: 2rem;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.fa-angle-up {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+    background-color: #086ad8;
+    padding: 0.8rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+}
