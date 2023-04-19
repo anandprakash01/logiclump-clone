@@ -256,6 +256,7 @@ p{
 }
 #have-A-Question{
     margin-left: 13rem;
+    margin-top: 5rem;
     
     
 }
@@ -314,7 +315,7 @@ form{
 .img-contact{
     width: 35%;
     margin-top: 5rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .img-contact img{
     width: 110%;
@@ -345,7 +346,7 @@ form{
     margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 70vh);
+    grid-template-rows: repeat(1, 80vh);
     gap: 20px;
 
 }
@@ -400,6 +401,7 @@ form{
     padding-left: 40px;
     padding-bottom: 10px;
     color: rgb(64, 50, 38);
+    margin-top: -20px;
 }
 
 #noida {
